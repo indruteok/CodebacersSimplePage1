@@ -1,0 +1,23 @@
+{
+    "nav": [{
+            "li": "Find Pomach"
+        },
+        {
+            "li": "Community"
+        },
+        {
+            "li": "Blog"
+        },
+        {
+            "li": "About Pomah"
+        }
+           ],
+
+    "form": [{
+            "button": "Login"
+        },
+        {
+            "button": "Register"
+        }
+            ]
+}

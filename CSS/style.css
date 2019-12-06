@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image:
+        linear-gradient(#bee5ee, #f1f9fd),
+        url(../IMG/background.jpg),
+        url(../IMG/bg_blue.jpg);
+    background-size: 40%, 60%, 60%;
+    background-position:
+        left,
+        top right,
+        bottom right;
+    background-repeat:
+        no-repeat,
+        no-repeat;
+    height: 1200px;
+}
+
+.container {
+    max-width: 1800px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+/*HEADER*/
+
+header {
+    background-color: white;
+    padding: 0 1%;
+}
+
+.logo {
+    width: 9%;
+}
+
+nav {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#navbarTogglerDemo03 {
+    padding-left: 40px;
+}
+
+nav ul li {
+    padding-left: 20px;
+}
+
+.nav-link:active {
+    background-color: #ff7533;
+}
+
+a {
+    color: black;
+}
+
+.navbar-nav-main li {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+a:hover{
+    color:black;
+}
+
+.navbar-nav-main li:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 28px;
+    background: #ff7533;
+    height: 5px;
+    width: 40px;
+    margin: -10px 0;
+   
+}
+
+.btn1 {
+    color: black;
+    font-weight: 600;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.btn2 {
+    background-color: #ff7533;
+    color: white;
+    font-weight: 600;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/*MAIN*/
+.article1 {
+    background-color: #e9eef8;
+    padding: 7% 5% 15% 5%;
+}
+
+.font1 {
+    text-align: start;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.font2 {
+    color: #62768d;
+    text-align: start;
+    font-size: 17px;
+    padding: 2% 0 10% 0;
+}
+
+.font3 {
+    font-weight: 600;
+}
+
+.line {
+    padding: 0 20px;
+    margin: 8px 0;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+/*CAROUSEL*/
+.carousel-inner {
+    z-index: -1
+}
+
+#rounded {
+    position: absolute;
+    border-radius: 25px;
+    margin-left: 8%;
+    margin-top: 75%;
+    width: 85%;
+}
+
+/*FORM*/
+.form2 {
+    padding-top: 10%;
+}
+
+.formAll {
+    background-color: white;
+    text-align: start;
+    padding-left: 3%;
+}
+
+.form-control {
+    border: 1px solid white;
+}
+
+.btn3 {
+    background-color: #ff7533;
+    color: white;
+    font-weight: 600;
+    padding: 2% 40% 2% 40%;
+    text-transform: uppercase
+}
+
+.oneline {
+    display: flex;
+}
+
+.form-control {
+    font-weight: bold;
+    width: 90%;
+    padding-top: 0;
+    padding-left: 0;
+
+}
+
+/*BLOG*/
+.img2 {
+    height: 200px;
+}
